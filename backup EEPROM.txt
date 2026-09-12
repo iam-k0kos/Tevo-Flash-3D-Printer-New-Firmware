@@ -1,0 +1,58 @@
+Connecting...
+start
+Printer is now online.
+echo:Marlin Flash-TMC
+echo: Last Updated: 2017-10-10 12:00 | Author: (Phantom, TEVO Flash)
+echo:Compiled: Aug 17 2018
+echo: Free Memory: 3492  PlannerBufferBytes: 1232
+echo:V41 stored settings retrieved (498 bytes; crc 44082)
+echo:  G21    ; Units in mm
+echo:  M149 C ; Units in Celsius
+echo:Filament settings: Disabled
+echo:  M200 D1.75
+echo:  M200 D0
+echo:Steps per unit:
+echo:  M92 X80.06 Y80.06 Z399.29 E408.00
+echo:Maximum feedrates (units/s):
+echo:  M203 X400.00 Y400.00 Z50.00 E45.00
+echo:Maximum Acceleration (units/s2):
+echo:  M201 X3000 Y3000 Z300 E10000
+echo:Acceleration (units/s2): P<print_accel> R<retract_accel> T<travel_accel>
+echo:  M204 P1500.00 R10000.00 T3000.00
+echo:Advanced: S<min_feedrate> T<min_travel_feedrate> B<min_segment_time_ms> X<max_xy_jerk> Z<max_z_jerk> E<max_e_jerk>
+echo:  M205 S0.00 T0.00 B20000 X10.00 Y10.00 Z0.30 E5.00
+echo:Home offset:
+echo:  M206 X12.00 Y0.00 Z0.00
+echo:Material heatup parameters:
+echo:  M145 S0 H200 B70 F0
+  M145 S1 H240 B110 F0
+echo:PID settings:
+echo:  M301 P12.56 I0.91 D43.20
+echo:  M304 P138.56 I24.51 D195.80
+echo:SD init fail
+echo:SD init fail
+>>> M503
+SENDING:M503
+echo:  G21    ; Units in mm
+echo:  M149 C ; Units in Celsius
+echo:Filament settings: Disabled
+echo:  M200 D1.75
+echo:  M200 D0
+echo:Steps per unit:
+echo:  M92 X80.06 Y80.06 Z399.29 E408.00
+echo:Maximum feedrates (units/s):
+echo:  M203 X400.00 Y400.00 Z50.00 E45.00
+echo:Maximum Acceleration (units/s2):
+echo:  M201 X3000 Y3000 Z300 E10000
+echo:Acceleration (units/s2): P<print_accel> R<retract_accel> T<travel_accel>
+echo:  M204 P1500.00 R10000.00 T3000.00
+echo:Advanced: S<min_feedrate> T<min_travel_feedrate> B<min_segment_time_ms> X<max_xy_jerk> Z<max_z_jerk> E<max_e_jerk>
+echo:  M205 S0.00 T0.00 B20000 X10.00 Y10.00 Z0.30 E5.00
+echo:Home offset:
+echo:  M206 X12.00 Y0.00 Z0.00
+echo:Material heatup parameters:
+echo:  M145 S0 H200 B70 F0
+  M145 S1 H240 B110 F0
+echo:PID settings:
+echo:  M301 P12.56 I0.91 D43.20
+echo:  M304 P138.56 I24.51 D195.80
